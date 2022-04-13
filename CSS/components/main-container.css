@@ -1,12 +1,17 @@
 .main-container {
-    font-family: "Roboto Mono", monospace;
-    color: floralwhite;
-    min-height: 854px;
-    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.2amgaming.com%2Fwp-content%2Fuploads%2F2019%2F11%2Fmelhores-jogares-por-posicao-fifa.jpg&f=1&nofb=1');
-    background-color: white;
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
-    padding-bottom: 20vh;
-    text-align: center;
-  }
+  font-family: "Roboto Mono", monospace;
+  color: floralwhite;
+  min-height: 854px;
+  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fblog.2amgaming.com%2Fwp-content%2Fuploads%2F2019%2F11%2Fmelhores-jogares-por-posicao-fifa.jpg&f=1&nofb=1');
+  background-color: white;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 20vh;
+  text-align: center;
+}
+
+.main-container .options {
+  color: yellow;
+  margin-top: 5px;
+}

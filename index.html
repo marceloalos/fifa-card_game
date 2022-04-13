@@ -8,27 +8,21 @@
 
     <link rel="stylesheet" href="CSS/components/reset.css">
     <link rel="stylesheet" href="CSS/components/main-container.css">
+    <link rel="stylesheet" href="CSS/components/page-logo.css">
     <link rel="stylesheet" href="CSS/components/page-title.css">
     <link rel="stylesheet" href="CSS/components/button.css">
-    <link rel="stylesheet" href="CSS/components/page-logo.css">
     <link rel="stylesheet" href="CSS/components/card-image.css">
 </head>
 <body>
     <div class="main-container">
         <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn1.iconfinder.com%2Fdata%2Ficons%2FMetroStation-PNG%2F128%2FMB__ea.png&f=1&nofb=1" class="page-logo" alt="">
-        <h1 class="page-title">FIFA Card Game</h1><br><br>
-
-        <button class="button" onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
-
-        <form id="form-wrapper">
+        <h1 class="page-title">FIFA Card Game</h1>
+        <button class="button" id="btnSortear" onclick="sortearCarta()">Sortear carta</button>
+        <form id="form">
             <div class="card-image" id="imagemCarta"></div>
-            
             <h2>Escolha o seu atributo</h2>
-            
-            <div class="opcoes" id="opcoes"></div>
-            
-            <button class="button" type="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
-            
+            <div class="options" id="opcoes"></div>
+            <button class="button" id="btnJogar" onclick="jogar()" disabled="true">Jogar</button>
             <h2 id="resultado"></h2>
         </form>
     </div>    
