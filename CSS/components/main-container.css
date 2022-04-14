@@ -12,6 +12,12 @@
 }
 
 .main-container .options {
-  color: yellow;
+  width: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  color: floralwhite;
   margin-top: 5px;
+  border-radius: 20px 10px;
+  background-color: deeppink;
+  
 }
